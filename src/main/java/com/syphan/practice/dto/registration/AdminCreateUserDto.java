@@ -1,6 +1,5 @@
 package com.syphan.practice.dto.registration;
 
-import com.syphan.practice.dto.BaseDto;
 import lombok.AllArgsConstructor;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
@@ -8,13 +7,13 @@ import lombok.Setter;
 
 import javax.validation.constraints.NotBlank;
 import javax.validation.constraints.NotNull;
+import java.util.List;
 
 @Getter
 @Setter
 @AllArgsConstructor
 @NoArgsConstructor
-public class UserCreateDto extends BaseDto {
-
+public class AdminCreateUserDto {
     @NotBlank(message = "username.must.not.be.blank")
     private String username;
 
@@ -29,4 +28,6 @@ public class UserCreateDto extends BaseDto {
 
     @NotNull(message = "phoneNum.must.not.be.blank")
     private String phoneNum;
+
+    private List<Integer> roleIds;
 }

@@ -1,4 +1,5 @@
 com/syphan/practice/dto/registration/RoleCreateDto.class
+com/syphan/practice/dto/registration/AdminCreateUserDto.class
 com/syphan/practice/dto/registration/UserCreateDto.class
 com/syphan/practice/dto/house/BoardingHouseCreateDto.class
 com/syphan/practice/dto/BaseDto.class

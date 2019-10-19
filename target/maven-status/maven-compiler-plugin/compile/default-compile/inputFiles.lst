@@ -3,4 +3,5 @@
 /Users/syphan/IdeaProjects/cosalon/dtocommon/src/main/java/com/syphan/practice/dto/registration/UserSignIn.java
 /Users/syphan/IdeaProjects/cosalon/dtocommon/src/main/java/com/syphan/practice/dto/BaseDto.java
 /Users/syphan/IdeaProjects/cosalon/dtocommon/src/main/java/com/syphan/practice/dto/registration/UserCreateDto.java
+/Users/syphan/IdeaProjects/cosalon/dtocommon/src/main/java/com/syphan/practice/dto/registration/AdminCreateUserDto.java
 /Users/syphan/IdeaProjects/cosalon/dtocommon/src/main/java/com/syphan/practice/dto/registration/RoleCreateDto.java
