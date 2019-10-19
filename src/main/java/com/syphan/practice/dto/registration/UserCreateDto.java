@@ -7,6 +7,7 @@ import lombok.NoArgsConstructor;
 import lombok.Setter;
 
 import javax.validation.constraints.NotBlank;
+import javax.validation.constraints.NotNull;
 import java.util.List;
 
 @Getter
@@ -29,6 +30,7 @@ public class UserCreateDto extends BaseDto {
 
     private String email;
 
+    @NotNull(message = "phoneNum.must.not.be.blank")
     private String phoneNum;
 
     private List<Integer> roleIds;
